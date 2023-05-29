@@ -1,0 +1,33 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: rgb(36, 53, 63);
+}
+
+nav {
+  background: rgb(36, 53, 63);
+}
+
+.home-height {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 40px;
+}
+
+input {
+  background: transparent !important;
+  color: rgb(246, 243, 243) !important;
+}
+.main,
+nav {
+  box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+
+#signin:hover {
+  color: white !important;
+}
